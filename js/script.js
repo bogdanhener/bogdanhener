@@ -93,5 +93,15 @@ function asideSectionTogglerBtn(){
     let currentYear =new Date().getFullYear();
     document.querySelector('.year').innerHTML = currentYear;
 
+// Gsap Animation
+
+const timeline = gsap.timeline({defaults :{duration: 1}});
+
+timeline
+        .from('.nav a',{x: '-150%', stagger: .3, ease: 'power2in'})
+        .from('.social-links a', {opacity: 0, stagger: .3}, 2)
+       
+        
+
 
 
