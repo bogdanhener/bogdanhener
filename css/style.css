@@ -245,8 +245,6 @@ input,textarea,select{
     top: 20px;
     z-index: 11;
     background-color: #fdf9ff;
-    /* display: -ms-flexbox;
-    display: flex; */
     display: none;
     -ms-flex-pack: center;
     justify-content: center;
