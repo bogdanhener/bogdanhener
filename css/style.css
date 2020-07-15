@@ -2,8 +2,7 @@
  /*Font Awesome Free Icon*/
  @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
  /*Google fonts*/
- @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
- @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Rubik:ital,wght@0,500;0,700;1,900&family=Sawarabi+Mincho&display=swap');
 
 /*General Style*/
 body{
@@ -230,7 +229,8 @@ input,textarea,select{
 .aside .logo a{
 	font-size: 40px;
 	color:#302e4d;
-	font-family: 'Rubik', sans-serif;
+	/* font-family: 'Rubik', sans-serif; */
+	font-family: 'Sawarabi Mincho', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	display:inline-block;
@@ -364,10 +364,11 @@ text-align: center;
 }
 
 .home .intro h1{
-	font-size: 30px;
+	font-size: 40px;
 	color:#302e4d;
-	font-family: 'Rubik', sans-serif;
-	font-weight: 700;
+	/* font-family: 'Rubik', sans-serif; */
+	font-family: 'Sawarabi Mincho', sans-serif;
+	/* font-weight: 700; */
 	margin:20px 0 5px;
 }
 
@@ -377,6 +378,7 @@ text-align: center;
 	margin:0;
 	line-height: 22px;
 	color: #504e70;
+	
 }
 
 .home .intro .social-links{
