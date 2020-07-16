@@ -1173,7 +1173,10 @@ body.dark .shadow-dark{
     	max-width: 100%;
 	}
 	.home .intro h1 {
-		font-size: 35px;
+		font-size: 30px;
+	}
+	.home .intro p{
+		font-size: 14px;
 	}
 }
 
