@@ -141,22 +141,6 @@ timeline
         .from('.social-links a', {opacity: 0, stagger: .3}, 2)
 
 
- window.onload = function(){   
-  //Rotator Start
-  let text = document.getElementById('rotator');
-  let word = text.getElementsByTagName('span');
-  console.log(word);
-  let i = 0;
-  const rotator = () => {
-      word[i].style.display = 'none';
-      console.log(word[i])
-
-      i =(i + 1) % word.length; 
-      word[i].style.display = 'initial';
-  }
-  setInterval(rotator, 2000);
- // Rotator End
-}
 
 
 
